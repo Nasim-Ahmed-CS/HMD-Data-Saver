@@ -23,9 +23,10 @@ A refactored version split by responsibility for cleaner maintenance and future 
 - `Tracking/` — eye tracking, head tracking, and gaze-target logic
 - `Tasks/` — collision, memory, object-search, and SAGAT task logic
 - `Bootstrap/` — runtime wiring for tracking components
+- `device-frame-capture/` — captures camera/device frames to disk for later analysis
 
 ### device-frame-capture/
-A standalone folder for saving camera or device frames during a session.
+Located inside `modular-scripts/` for consistency with the refactored structure.
 - `DeviceFrameCapture.cs` — captures camera frames and saves them as image files
 - Useful for visual logging, passthrough capture, or later replay/analysis
 
